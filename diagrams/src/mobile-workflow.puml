@@ -1,0 +1,52 @@
+@startuml mobile-workflow
+
+start
+:Get Public Key from NFC;
+
+:Generate <nonce>;
+
+:Request signature of nonce;
+
+if (signature is valid?) then (yes)
+    :Get address from Public Key;
+
+    :Get [producerId, collectionId, productId] from NFC;
+
+    if (NFT is found?) then (yes)
+        if (Claim ownership NFT?) then (yes)
+            if (Ownership NFT claimed?) then (yes)
+                if (Are you the owner?) then (yes)
+                else (no)
+                    fork
+                        :Report error;
+                    fork again
+                    end fork
+                    end
+                endif
+            
+            else (no)
+                :Claim Ownership NFT;
+            endif
+        
+        else (no)
+        endif
+        :Product verified!;
+        stop
+
+    else (no)
+        fork
+            :Report error;
+        fork again
+        end fork
+        end
+    endif
+
+else (no)
+    fork
+        :Report error;
+    fork again
+    end fork
+    end
+endif
+
+@enduml
