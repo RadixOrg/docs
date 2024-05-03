@@ -1,0 +1,29 @@
+@startuml nfc_chip_arch
+
+node "NFC Chip" {
+  component "Secure Element" as sec {
+    portout "ps0" as ps0
+
+    frame "Digital Signature" as sign
+    frame "Key Derivation" as derive
+    database "Secret Key" as key
+  }
+
+  component "Processor Unit" as cpu {
+    portout "p0" as p0
+    portin "p1" as p1
+    portin "p2" as p2
+  }
+
+  database "Memory" as mem
+
+  component "NFC Antenna" as antenna
+
+  antenna -- p2
+  mem -- p1
+  ps0 -- p0
+
+
+}
+
+@enduml
