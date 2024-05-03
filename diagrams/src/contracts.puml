@@ -1,0 +1,37 @@
+@startuml radix_contracts
+
+class RadixRouter {
+    - _producerToCollection: mapping(uint256 => uint256)
+    - _collectionToContracts: mapping(uint256 => address[])
+
+    + addCollection(uint256 producerId, uint256 collectionId, address[] contracts)
+    + getContracts(uint256 producerId, uint256 collectionId) : address tag, address ownership
+}
+
+class ERC721 {
+    + balanceOf(address owner) : uint256
+    + ownerOf(uint256 tokenId) : address
+    + transferFrom(address from, address to, uint256 tokenId)
+}
+
+class RadixTag {
+    + createProduct(uint256 tokenId, string metadata, bytes32 sigHash)
+}
+
+class RadixOwnership {
+    - _tokenIdToSigHash: mapping(uint256 => bytes32)
+
+    + addSigHash(uint256 tokenId, bytes32 sigHash)
+    + claimOwnership(uint256 tokenId, bytes[64] sig)
+}
+
+ERC721 --|> RadixTag
+ERC721 --|> RadixOwnership
+
+RadixRouter "1" --> "0..*" RadixTag
+RadixRouter "1" --> "0..*" RadixOwnership
+
+RadixTag::createProduct --> RadixOwnership::addSigHash
+
+
+@enduml
