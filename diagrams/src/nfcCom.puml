@@ -1,0 +1,14 @@
+@startuml nfc_communication
+
+actor User as user
+participant "NFC Tag" as nfc
+
+user -> nfc: pubkey? 
+
+user <-- nfc: <pubkey>
+
+user -> nfc: sign <nonce>
+
+user <-- nfc: <sig>
+
+@enduml
