@@ -8,7 +8,7 @@ Questa è la documentazione relativa al progetto Radix.
 
 Radix offre una soluzione innovative per verificare in modo semplice e veloce l'autenticità e l'originalità di un prodotto Made in Italy.
 
-Per farlo, Radix utilizza un chip di sicurezza NFC da applicare al prodotto che avrà lo scopo di renderelo unico e inimitabile.
+Per farlo, Radix, utilizza un chip di sicurezza NFC da applicare al prodotto, il cui scopo sarà quello di renderelo unico e inimitabile.
 
 Il certificato di autenticità sarà registrato sulla blockchain, garantendo la massima trasparenza e sicurezza.
 
@@ -34,4 +34,4 @@ Usando gli stessi algoritmi usati da qualunque blockchain compatibile EVM, dal s
 
 <hr>
 
-[next >](./components/nfc_chip.md)
+| [next >](./components/nfc_chip.md)

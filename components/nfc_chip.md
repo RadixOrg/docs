@@ -4,9 +4,9 @@ Il chip NFC è un componente hardware che permette di rendere un prodotto unico 
 
 ## Come funziona
 
-Il chip sarà composto da un antenna NFC e da un microcontrollore che sarà in grado di calcolare algoritmi crittografici e di conservare in modo sicuro una chiave privata.
+Il chip sarà composto da un'antenna NFC e da un microcontrollore che sarà in grado di calcolare algoritmi crittografici e di conservare in modo sicuro una chiave privata.
 
-Gli algoritmi crittografici usati saranno gli stessi usati da qualunque blockchain compatibile EVM per la firma digitale, ovvero ECDSA con la curva secp256k1. (Si possono trovare più informazioni su ECDSA [qui](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm))
+Gli algoritmi crittografici usati saranno gli stessi usati da qualunque blockchain compatibile EVM per la firma digitale, ovvero: ECDSA con la curva secp256k1. (Si possono trovare più informazioni su ECDSA [qui](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm))
 
 ## Autenticazione
 

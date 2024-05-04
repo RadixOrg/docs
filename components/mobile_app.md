@@ -14,9 +14,9 @@ Quello che avviene nell'applicazione mobile durante lo scansionamento è descrit
 
 ## Mockup Grafico
 
-Il mockup grafico dell'applicazione può essere visualizzato [qui](https://www.figma.com/file/pfKjegMWyvKefAlKYeGRi9/Radix?type=design&node-id=0%3A1&mode=design&t=Fq0trQShQRQt8ie3-1) e un il prototipo interattivo può essere visualizzato [qui](https://www.figma.com/proto/pfKjegMWyvKefAlKYeGRi9/Radix?type=design&node-id=1-115&t=UXcKAo1JpIvFimpy-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A115&mode=design).
+Il mockup grafico dell'applicazione può essere visualizzato [qui](https://www.figma.com/file/pfKjegMWyvKefAlKYeGRi9/Radix?type=design&node-id=0%3A1&mode=design&t=Fq0trQShQRQt8ie3-1) e il prototipo interattivo può essere visualizzato [qui](https://www.figma.com/proto/pfKjegMWyvKefAlKYeGRi9/Radix?type=design&node-id=1-115&t=UXcKAo1JpIvFimpy-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A115&mode=design) (premere in qualsiasi punto della schermata per iniziare l'interazione).
 
 
 <hr>
 
-[< back](./smart_contract.md)
+[< back](./smart_contract.md) |
