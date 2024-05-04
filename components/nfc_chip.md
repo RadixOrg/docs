@@ -2,8 +2,6 @@
 
 Il chip NFC è un componente hardware che permette di rendere un prodotto unico e inimitabile.
 
-- [Come funziona](#come-funziona)
-
 ## Come funziona
 
 Il chip sarà composto da un antenna NFC e da un microcontrollore che sarà in grado di calcolare algoritmi crittografici e di conservare in modo sicuro una chiave privata.
