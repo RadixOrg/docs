@@ -6,7 +6,7 @@ Questa è la documentazione relativa al progetto Radix.
   <img src="./assets/logo.png" alt="radix logo" width="200">
 </p>
 
-Radix offre una soluzione innovative per verificare in modo semplice e veloce l'autenticità e l'originalità di un prodotto Made in Italy.
+Radix offre una soluzione innovativa per verificare in modo semplice e veloce l'autenticità e l'originalità di un prodotto Made in Italy.
 
 Per farlo, Radix, utilizza un chip di sicurezza NFC da applicare al prodotto, il cui scopo sarà quello di renderelo unico e inimitabile.
 
