@@ -22,7 +22,7 @@ class RadixOwnership {
     - _tokenIdToSigHash: mapping(uint256 => bytes32)
 
     + addSigHash(uint256 tokenId, bytes32 sigHash)
-    + claimOwnership(uint256 tokenId, bytes[64] sig)
+    + claimOwnership(uint256 tokenId, bytes32 sig)
 }
 
 ERC721 --|> RadixTag
